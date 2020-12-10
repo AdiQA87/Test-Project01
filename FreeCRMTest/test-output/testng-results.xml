@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="214210" started-at="2020-12-07T21:24:25 IST" finished-at="2020-12-07T21:28:00 IST">
+    <groups>
+    </groups>
+    <test name="Free CRM Test Cases" duration-ms="214210" started-at="2020-12-07T21:24:25 IST" finished-at="2020-12-07T21:28:00 IST">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="setup" is-config="true" duration-ms="53120" started-at="2020-12-07T21:24:26 IST" finished-at="2020-12-07T21:25:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="loginPageTitleTest" duration-ms="84" started-at="2020-12-07T21:25:19 IST" finished-at="2020-12-07T21:25:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="tearDown" is-config="true" duration-ms="1165" started-at="2020-12-07T21:25:19 IST" finished-at="2020-12-07T21:25:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="setup" is-config="true" duration-ms="34756" started-at="2020-12-07T21:25:20 IST" finished-at="2020-12-07T21:25:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginButtonFunctionalityTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="loginButtonFunctionalityTest" duration-ms="4553" started-at="2020-12-07T21:25:55 IST" finished-at="2020-12-07T21:25:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginButtonFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="tearDown" is-config="true" duration-ms="1096" started-at="2020-12-07T21:25:59 IST" finished-at="2020-12-07T21:26:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="setup" is-config="true" duration-ms="24520" started-at="2020-12-07T21:26:00 IST" finished-at="2020-12-07T21:26:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkForgotButtonLinkTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="checkForgotButtonLinkTest" duration-ms="253" started-at="2020-12-07T21:26:25 IST" finished-at="2020-12-07T21:26:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForgotButtonLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="tearDown" is-config="true" duration-ms="961" started-at="2020-12-07T21:26:25 IST" finished-at="2020-12-07T21:26:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="setup" is-config="true" duration-ms="9880" started-at="2020-12-07T21:26:26 IST" finished-at="2020-12-07T21:26:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ForgotButtonFunctionalityTest()[pri:4, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="ForgotButtonFunctionalityTest" duration-ms="2872" started-at="2020-12-07T21:26:36 IST" finished-at="2020-12-07T21:26:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotButtonFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="tearDown" is-config="true" duration-ms="1030" started-at="2020-12-07T21:26:39 IST" finished-at="2020-12-07T21:26:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="setup" is-config="true" duration-ms="39819" started-at="2020-12-07T21:26:40 IST" finished-at="2020-12-07T21:27:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateSignUpButtonLinkTest()[pri:5, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="validateSignUpButtonLinkTest" duration-ms="99" started-at="2020-12-07T21:27:20 IST" finished-at="2020-12-07T21:27:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpButtonLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="tearDown" is-config="true" duration-ms="1970" started-at="2020-12-07T21:27:20 IST" finished-at="2020-12-07T21:27:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="setup" is-config="true" duration-ms="31184" started-at="2020-12-07T21:27:22 IST" finished-at="2020-12-07T21:27:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateSignUplinkFunctionalityTest()[pri:6, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="validateSignUplinkFunctionalityTest" duration-ms="5644" started-at="2020-12-07T21:27:53 IST" finished-at="2020-12-07T21:27:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUplinkFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@2d773b]" name="tearDown" is-config="true" duration-ms="1032" started-at="2020-12-07T21:27:59 IST" finished-at="2020-12-07T21:28:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Free CRM Test Cases -->
+  </suite> <!-- Suite -->
+</testng-results>
