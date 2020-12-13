@@ -19,8 +19,8 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//*[contains(text(),'Aditya Gupta')]")
 	WebElement userNameText;
 
-	@FindBy(xpath ="//*[@id='main-nav']/a[3]/span[contains(text(),'Contacts')]")
-	WebElement contactLink;
+	@FindBy(xpath ="//*[@id='main-nav']//i[@class='users icon']")
+	WebElement contactIcon;
 
 	public HomePage(){
 		PageFactory.initElements(driver, this);		
@@ -39,7 +39,7 @@ public class HomePage extends TestBase {
 	public ContactsPage clickOnContactsLink(){
 		
 		jse = (JavascriptExecutor) driver;
-		jse.executeScript("arguments[0].click()", contactLink);
+		jse.executeScript("arguments[0].click()", contactIcon);
 		return new ContactsPage();
 
 	}

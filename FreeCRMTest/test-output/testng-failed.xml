@@ -6,13 +6,29 @@
   </listeners>
   <test thread-count="5" name="Free CRM Test Cases(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.LoginPageTest">
+      <class name="com.crm.qa.testcases.RetestPageTest">
         <methods>
+          <include name="tearDown"/>
+          <include name="verifyForgotMyPwdHeaderTest"/>
           <include name="setup"/>
-          <include name="validateSignUplinkFunctionalityTest"/>
+          <include name="verifyPwdResetPageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.RetestPageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="createNewContact"/>
+          <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.SignUpPageTest">
+        <methods>
+          <include name="gotAnAccountLinkFunctionalityTest"/>
+          <include name="validateHeaderOfSignUpPageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.SignUpPageTest -->
     </classes>
   </test> <!-- Free CRM Test Cases(failed) -->
 </suite> <!-- Failed suite [Suite] -->

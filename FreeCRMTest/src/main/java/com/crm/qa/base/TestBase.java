@@ -27,7 +27,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		public TestBase(){
 			try{
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("E:/Practice/FreeCRMTest/src/main/java/com/crm/qa/configs/config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\Aditya Gupta\\git\\Test-Project01\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\configs\\config.properties");
 			prop.load(ip);
 			}catch(FileNotFoundException e){
 				e.printStackTrace();
